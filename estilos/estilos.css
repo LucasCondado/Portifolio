@@ -53,6 +53,9 @@ main > h1 {
     color: ;
 }
 
+h2,h3 {
+    font-family: var(--fonte-titulo);
+}
 main > p {
     font-family: var(--fonte-corpo);
     padding-left: 2px;
@@ -61,7 +64,16 @@ main > p {
 main a {
     text-decoration: none;
     text-align: left;
+    font-weight: bolder;
 }
+
+main ul {
+  text-align: left;
+  list-style-position: inside; /* mantém as bolinhas alinhadas com o texto */
+  margin-left: 30px; /* um pequeno recuo opcional */
+  font-family: var(--fonte-corpo);
+}
+
 
 #contato {
   display: flex;
