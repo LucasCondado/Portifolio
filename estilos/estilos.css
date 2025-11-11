@@ -44,23 +44,17 @@ nav {
 }
 
 main {
-    margin: 0px 10px 0px 10px;
+    margin: 0px 15px;
     background-color: rgb(255, 252, 246);
     text-align: center;
     padding-bottom: 30px;
     padding-top: 20px;
 }
 
-main > h1 {
-    font-family: var(--fonte-titulo);
-    padding-left: 4px;
-    margin-bottom: 10px;
-}
 
-section > h1,h2  {
+h1, h2, h3 {
     font-family: var(--fonte-titulo);
-    padding-left: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -94,6 +88,7 @@ main ul {
 
 
 #contato {
+  margin-left: 20px;
   display: flex;
   align-items: center;
   gap: 0.5rem; /* espaço entre o ícone e o texto */
@@ -146,7 +141,18 @@ footer > p > a {
 }
 
 main #c1 {
+  margin-left: 20px;
   text-align: left;
+}
+
+main #c2 {
+  margin-left: 20px;
+  text-align: left;
+}
+
+section #bio {
+  text-align: left;
+  margin-left: 20px;
 }
 
 iframe {
