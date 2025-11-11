@@ -57,6 +57,11 @@ main > p {
     padding-left: 2px;
 }
 
+main a {
+    text-decoration: none;
+    text-align: left;
+}
+
 #contato {
   display: flex;
   align-items: center;
@@ -73,7 +78,6 @@ main > p {
   height: 32px;
   fill: #04BF9D; /* cor do ícone */
 }
-
 
 footer {
     font-family: var(--fonte-titulo);
