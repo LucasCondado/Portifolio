@@ -183,7 +183,7 @@ div {
 }
 
 #buscador {
-  max-width: 60vw;
+  max-width: 75vw;
   height: 60vh; /* altura proporcional à tela */
   border: none;
   border-radius: 10px;
