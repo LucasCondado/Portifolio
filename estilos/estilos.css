@@ -51,7 +51,6 @@ main {
     padding-top: 20px;
 }
 
-
 h1, h2, h3 {
     font-family: var(--fonte-titulo);
     margin-bottom: 30px;
@@ -76,7 +75,9 @@ main > p {
 main a {
     text-decoration: none;
     text-align: left;
-    font-weight: bolder;
+    font-weight: 900;
+    color: #00ccb8;
+
 }
 
 main ul {
@@ -168,4 +169,5 @@ iframe {
 
 #con1, #con2 {
   margin-top: 20px;
+  font-family: var(--fonte-corpo);
 }
