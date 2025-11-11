@@ -45,6 +45,7 @@ main {
     background-color: rgb(255, 252, 246);
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 main > h1 {
@@ -108,4 +109,20 @@ footer > p > a {
     text-decoration: none;
     font-weight: bold;
     color: bisque;
+}
+
+#apresentacao {
+  font-family: var(--fonte-titulo);
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaço entre imagem e texto */
+  justify-content: center; /* ou left, se quiser alinhado à esquerda */
+  margin-bottom: 10px;
+}
+
+#apresentacao img {
+  width: 120px; /* tamanho pequeno tipo ícone */
+  height: 110px;
+  border-radius: 50%; /* deixa redondo */
+  object-fit: cover; /* mantém o rosto centralizado */
 }
