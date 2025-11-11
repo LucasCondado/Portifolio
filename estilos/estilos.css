@@ -171,3 +171,7 @@ iframe {
   margin-top: 20px;
   font-family: var(--fonte-corpo);
 }
+
+div {
+  font-family: var(--fonte-titulo);
+}
