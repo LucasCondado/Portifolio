@@ -1,2 +1,2 @@
-🔗 [Acesse meu portfólio](https://lucascondado.github.io/Portfolio/)
+🔗 [Acesse meu portfólio.](https://lucascondado.github.io/Portfolio/)
  
