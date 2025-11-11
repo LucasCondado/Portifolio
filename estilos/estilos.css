@@ -25,13 +25,16 @@ header > nav > a {
   color: white;
   text-decoration: none;
   font-size: 1.5em;
-  background-color: #081f4d;
   font-family: var(--fonte-titulo);
-  margin: 10px;
+  margin: 7px;
   padding: 4px;
   border-radius: 7px;
 }
 
+header > nav > a:hover {
+  background-color: #081f4d;
+  transition-duration: 1s;
+}
 nav {
   background-color: var(--cor-azul);
   padding: 15px;
