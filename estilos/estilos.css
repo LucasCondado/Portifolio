@@ -22,19 +22,22 @@ body {
 }
 
 header > nav > a {
-  color: white;
+  color: #04BF9D;
+;
   text-decoration: none;
   font-size: 1.5em;
   font-family: var(--fonte-titulo);
   margin: 7px;
   padding: 4px;
   border-radius: 7px;
+  background-color: #406dc9;
 }
 
 header > nav > a:hover {
   background-color: #081f4d;
   transition-duration: 1s;
 }
+
 nav {
   background-color: var(--cor-azul);
   padding: 15px;
@@ -52,6 +55,19 @@ main > h1 {
     font-family: var(--fonte-titulo);
     padding-left: 4px;
     margin-bottom: 10px;
+}
+
+section > h1,h2  {
+    font-family: var(--fonte-titulo);
+    padding-left: 4px;
+    margin-bottom: 10px;
+}
+
+
+section > p {
+    font-family: var(--fonte-corpo);
+    padding-left: 2px;
+    margin-bottom: 30px;
 }
 
 h2,h3 {
@@ -127,4 +143,14 @@ footer > p > a {
   height: 110px;
   border-radius: 50%; /* deixa redondo */
   object-fit: cover; /* mantém o rosto centralizado */
+}
+
+main #c1 {
+  text-align: left;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 30vh ;
+  margin-bottom: 20px;
 }
