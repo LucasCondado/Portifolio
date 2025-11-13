@@ -311,42 +311,36 @@ div {
 }
 
 @media (min-width: 1080px) {
-  nav > a {
-    margin: 15px;
+  header > nav {
+    display: flex;              
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 12px;                   /* espaço entre os botões */
+    width: 100%;
+    max-width: none;             
+    margin: 0;
+    padding-left: 8px;          /* margem à esquerda */
+  }
+
+  header > nav > a {
+    margin: 0;
+    flex: 0 0 90px;             /* largura reduzida */
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 6px 10px;
   }
 
   main {
     margin-right: 4vw;
     margin-left: 4vw;
   }
-  
-  #buscador {
-    width: 30vw;       
-    max-width: 80%;    
-    height: 400px;      
-    margin: 0;
-    border: 0;
-  }
-}
-
-@media (min-width: 1080px) {
-  nav > a {
-    margin: 10px;
-  }
-  
-  header > nav {
-    display: inline-block;
-    text-align: left;
-  }
 
   #buscador {
-    width: 30vw;       
-    max-width: 40%;    
-    height: 400px;      
+    width: 30vw;
+    max-width: 40%;
+    height: 400px;
     margin: 0;
     border: 0;
     overflow: hidden;
-    border: none;
   }
 }
-
